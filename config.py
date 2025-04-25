@@ -8,11 +8,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", None))
-API_HASH = getenv("API_HASH", None)
+API_ID = 25756754
+API_HASH = 69520e9764037afbf74f216ac05447e8
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", None)
+BOT_TOKEN = 7871600258:AAGWPv3A7cKEWa4eovRxGCS5yae_NQ5jwI4
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -22,11 +22,11 @@ PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
+LOGGER_ID = https://t.me/learning_bots
+LOG_GROUP_ID = https://t.me/learning_bots
 
 # Get this value Telegram id
-OWNER_ID = int(getenv("OWNER_ID", "5016109398"))
+OWNER_ID = -1001861619812
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -74,7 +74,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session
-STRING1 = getenv("STRING_SESSION",  None)
+STRING1 = BQGJBFIAJAh28XCmScAnYqZzYSHcKetg4owFKQxF8zDUEXmumZtemie-YMOhhoqO-ur5rQ8lKVQGYH6drSPX1Lk9V2f0xn5z3GX_CddkpYF2Y4VRL517lWCLv1LZCTJ7go9m1hUxaXMXNzZFxFqNVhZxE0e8cUWu1pixKeiPrIrSU6GfqdCRfGEGyZbtm4WXUw9V2cFyktFqGoJe6IkWij-TjWTfUHMuJkZ70wLFoqmqD0tnMyPwZnJbuDfmsZCZzHAd_UUyPgc1N8zR1O6m7qKAMvIul8HDHO59WvxMWg_lLm0r04itJKXtCgbpjBcSK7pfMC2x0bl6nlmOjOUr3AWSIIeMOAAAAAHEWMRjAA
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -90,10 +90,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/62c76ac2095332a0ede75.jpg"
+    "START_IMG_URL", "https://graph.org/file/e9e280052d5ada888b883-c0c2f948cca86daa38.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/4f59fb748e1990acfa297.jpg"
+    "PING_IMG_URL", "https://graph.org/file/e9e280052d5ada888b883-c0c2f948cca86daa38.jpg"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/14eb59ea7d31229d8d751.jpg"
 STATS_IMG_URL = "https://te.legra.ph/file/4310ea5f523520b2b765b.jpg"
